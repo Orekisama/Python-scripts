@@ -8,3 +8,5 @@ lines = f.read()
 keyword='---Tl8PvPyi---A--'
 log = lines.split(keyword)
 r.write(keyword + log[-1])
+f.close()
+r.close()

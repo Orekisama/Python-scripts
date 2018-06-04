@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# 当keyword是一整行的时候
+# 当keyword为一行内容的时候
 
 f = open('object.log', 'r', encoding='utf-8')
 r = open('output.log', 'w', encoding='utf-8')
